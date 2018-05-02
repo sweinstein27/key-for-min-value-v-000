@@ -3,5 +3,5 @@
 require "pry"
 
 def key_for_min_value(name_hash)
-binding.pry
+name_hash.each { |key, value| binding.pry value}
 end
